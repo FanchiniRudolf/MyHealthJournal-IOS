@@ -254,6 +254,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mad-I6-46R">
                                 <rect key="frame" x="299" y="122.5" width="95" height="30"/>
                                 <state key="normal" title="Nuevo evento"/>
+                                <connections>
+                                    <segue destination="NgK-nq-0cP" kind="show" id="DoC-Hg-1zY"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mis condiciones:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPf-27-LPN">
                                 <rect key="frame" x="20" y="160.5" width="128" height="21"/>
@@ -308,6 +311,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="xXc-p4-uSx"/>
                     </view>
+                    <navigationItem key="navigationItem" id="0HB-uI-Vhe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pfs-fh-G9E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
