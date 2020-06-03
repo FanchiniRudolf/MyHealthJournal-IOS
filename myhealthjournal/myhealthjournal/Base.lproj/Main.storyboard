@@ -244,13 +244,32 @@
                     <view key="view" contentMode="scaleToFill" id="6rc-Jr-lFU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mi histórico" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zUr-fX-J8s">
+                                <rect key="frame" x="20" y="44" width="374" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mad-I6-46R">
+                                <rect key="frame" x="299" y="78.5" width="95" height="30"/>
+                                <state key="normal" title="Nuevo evento"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="PTb-cU-WbT" firstAttribute="trailing" secondItem="Mad-I6-46R" secondAttribute="trailing" constant="20" id="7Ve-hA-DoH"/>
+                            <constraint firstItem="zUr-fX-J8s" firstAttribute="leading" secondItem="PTb-cU-WbT" secondAttribute="leading" constant="20" id="RlI-5A-Ezk"/>
+                            <constraint firstItem="PTb-cU-WbT" firstAttribute="trailing" secondItem="zUr-fX-J8s" secondAttribute="trailing" constant="20" id="X95-bi-rbL"/>
+                            <constraint firstItem="zUr-fX-J8s" firstAttribute="top" secondItem="PTb-cU-WbT" secondAttribute="top" id="bUL-RB-PFL"/>
+                            <constraint firstItem="Mad-I6-46R" firstAttribute="top" secondItem="zUr-fX-J8s" secondAttribute="bottom" constant="8" id="uFd-oT-mJB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="PTb-cU-WbT"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vb9-t4-VD2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="757" y="881"/>
+            <point key="canvasLocation" x="756.52173913043487" y="886.60714285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2K3-Vr-t8r">
@@ -259,13 +278,58 @@
                     <view key="view" contentMode="scaleToFill" id="hcw-r2-2x3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcK-fB-zQc">
+                                <rect key="frame" x="20" y="78.5" width="374" height="142.5"/>
+                                <string key="text">Prototipo para iOS por: Irving Fuentes Aguilera Roberto Téllez Perezyera Luis Alfonso Alcántara López Ortega Rudolf Josef Fanchini Reyes --- LifeHealth Solutions</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Acerca de" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Afs-Zk-vrZ">
+                                <rect key="frame" x="20" y="44" width="374" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJQ-a9-WCe">
+                                <rect key="frame" x="20" y="229" width="374" height="223.5"/>
+                                <mutableString key="text">AVISO: Esta aplicación NO debe considerarse o usarse como sustituto de consultar a un especialista para diagnóstisoc y mayor información sobre su condición de salud. Esta aplicación está diseñada únicamente para dar seguimiento a su condición, NO para brindar diagnósticos médicos profesionales. En caso de sufrir un episodio de gravedad relacionado con su condición, acuda con su médico lo más pronto posible.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ubc-xs-2S1">
+                                <rect key="frame" x="127.5" y="460.5" width="159" height="30"/>
+                                <state key="normal" title="Ver aviso de privacidad"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FdV-GM-m2T">
+                                <rect key="frame" x="302" y="832" width="92" height="30"/>
+                                <state key="normal" title="Cerrar sesión"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="gJG-Oe-U4q" firstAttribute="trailing" secondItem="lJQ-a9-WCe" secondAttribute="trailing" constant="20" id="7SW-eS-47t"/>
+                            <constraint firstItem="kcK-fB-zQc" firstAttribute="leading" secondItem="gJG-Oe-U4q" secondAttribute="leading" constant="20" id="ApJ-Tg-ZMo"/>
+                            <constraint firstItem="lJQ-a9-WCe" firstAttribute="leading" secondItem="gJG-Oe-U4q" secondAttribute="leading" constant="20" id="FcI-Eb-cD0"/>
+                            <constraint firstItem="gJG-Oe-U4q" firstAttribute="trailing" secondItem="FdV-GM-m2T" secondAttribute="trailing" constant="20" id="IYJ-Oc-1MP"/>
+                            <constraint firstItem="ubc-xs-2S1" firstAttribute="centerX" secondItem="gJG-Oe-U4q" secondAttribute="centerX" id="Nac-eK-ObJ"/>
+                            <constraint firstItem="gJG-Oe-U4q" firstAttribute="bottom" secondItem="FdV-GM-m2T" secondAttribute="bottom" id="SgL-Ib-KMb"/>
+                            <constraint firstItem="Afs-Zk-vrZ" firstAttribute="leading" secondItem="gJG-Oe-U4q" secondAttribute="leading" constant="20" id="TyK-ew-IKN"/>
+                            <constraint firstItem="gJG-Oe-U4q" firstAttribute="trailing" secondItem="Afs-Zk-vrZ" secondAttribute="trailing" constant="20" id="WZr-AM-9Wg"/>
+                            <constraint firstItem="lJQ-a9-WCe" firstAttribute="top" secondItem="kcK-fB-zQc" secondAttribute="bottom" constant="8" id="dH4-mu-ZAL"/>
+                            <constraint firstItem="Afs-Zk-vrZ" firstAttribute="top" secondItem="gJG-Oe-U4q" secondAttribute="top" id="dnP-g5-PKy"/>
+                            <constraint firstItem="kcK-fB-zQc" firstAttribute="top" secondItem="Afs-Zk-vrZ" secondAttribute="bottom" constant="8" id="doJ-is-wHd"/>
+                            <constraint firstItem="ubc-xs-2S1" firstAttribute="top" secondItem="lJQ-a9-WCe" secondAttribute="bottom" constant="8" id="ndh-Gf-d04"/>
+                            <constraint firstItem="gJG-Oe-U4q" firstAttribute="trailing" secondItem="kcK-fB-zQc" secondAttribute="trailing" constant="20" id="vAL-BM-bCs"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="gJG-Oe-U4q"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="peC-yt-kd9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1561" y="887"/>
+            <point key="canvasLocation" x="1560.8695652173915" y="886.60714285714278"/>
         </scene>
     </scenes>
     <resources>
