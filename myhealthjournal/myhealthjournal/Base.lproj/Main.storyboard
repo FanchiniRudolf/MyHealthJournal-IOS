@@ -126,14 +126,30 @@
                                 <rect key="frame" x="299" y="78.5" width="95" height="30"/>
                                 <state key="normal" title="Nuevo evento"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mis condiciones:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPf-27-LPN">
+                                <rect key="frame" x="20" y="116.5" width="128" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="str-NR-v0Q">
+                                <rect key="frame" x="20" y="145.5" width="374" height="716.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="PTb-cU-WbT" firstAttribute="trailing" secondItem="Mad-I6-46R" secondAttribute="trailing" constant="20" id="7Ve-hA-DoH"/>
+                            <constraint firstItem="tPf-27-LPN" firstAttribute="leading" secondItem="PTb-cU-WbT" secondAttribute="leading" constant="20" id="CaM-jT-cxr"/>
+                            <constraint firstItem="PTb-cU-WbT" firstAttribute="trailing" secondItem="str-NR-v0Q" secondAttribute="trailing" constant="20" id="Op6-84-Unh"/>
                             <constraint firstItem="zUr-fX-J8s" firstAttribute="leading" secondItem="PTb-cU-WbT" secondAttribute="leading" constant="20" id="RlI-5A-Ezk"/>
                             <constraint firstItem="PTb-cU-WbT" firstAttribute="trailing" secondItem="zUr-fX-J8s" secondAttribute="trailing" constant="20" id="X95-bi-rbL"/>
                             <constraint firstItem="zUr-fX-J8s" firstAttribute="top" secondItem="PTb-cU-WbT" secondAttribute="top" id="bUL-RB-PFL"/>
+                            <constraint firstItem="str-NR-v0Q" firstAttribute="bottom" secondItem="PTb-cU-WbT" secondAttribute="bottom" id="dfP-3A-XE6"/>
+                            <constraint firstItem="str-NR-v0Q" firstAttribute="top" secondItem="tPf-27-LPN" secondAttribute="bottom" constant="8" id="dho-Ix-GiG"/>
+                            <constraint firstItem="tPf-27-LPN" firstAttribute="top" secondItem="Mad-I6-46R" secondAttribute="bottom" constant="8" id="gea-er-fgo"/>
                             <constraint firstItem="Mad-I6-46R" firstAttribute="top" secondItem="zUr-fX-J8s" secondAttribute="bottom" constant="8" id="uFd-oT-mJB"/>
+                            <constraint firstItem="str-NR-v0Q" firstAttribute="leading" secondItem="PTb-cU-WbT" secondAttribute="leading" constant="20" id="uMn-Pv-MCE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PTb-cU-WbT"/>
                     </view>
@@ -165,7 +181,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJQ-a9-WCe">
                                 <rect key="frame" x="20" y="229" width="374" height="223.5"/>
-                                <mutableString key="text">AVISO: Esta aplicación NO debe considerarse o usarse como sustituto de consultar a un especialista para diagnóstisoc y mayor información sobre su condición de salud. Esta aplicación está diseñada únicamente para dar seguimiento a su condición, NO para brindar diagnósticos médicos profesionales. En caso de sufrir un episodio de gravedad relacionado con su condición, acuda con su médico lo más pronto posible.</mutableString>
+                                <string key="text">AVISO: Esta aplicación NO debe considerarse o usarse como sustituto de consultar a un especialista para diagnóstisoc y mayor información sobre su condición de salud. Esta aplicación está diseñada únicamente para dar seguimiento a su condición, NO para brindar diagnósticos médicos profesionales. En caso de sufrir un episodio de gravedad relacionado con su condición, acuda con su médico lo más pronto posible.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
