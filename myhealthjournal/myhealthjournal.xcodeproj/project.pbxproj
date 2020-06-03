@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6301D6724882AD300203C94 /* blue_background.png in Resources */ = {isa = PBXBuildFile; fileRef = A6301D6624882AD300203C94 /* blue_background.png */; };
+		A6301D6924882B3300203C94 /* ic_launcher-playstore.png in Resources */ = {isa = PBXBuildFile; fileRef = A6301D6824882B3300203C94 /* ic_launcher-playstore.png */; };
 		F470BC672486DCB5008E4D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470BC662486DCB5008E4D09 /* AppDelegate.swift */; };
 		F470BC692486DCB5008E4D09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470BC682486DCB5008E4D09 /* SceneDelegate.swift */; };
 		F470BC6B2486DCB5008E4D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470BC6A2486DCB5008E4D09 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6301D6624882AD300203C94 /* blue_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_background.png; sourceTree = "<group>"; };
+		A6301D6824882B3300203C94 /* ic_launcher-playstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_launcher-playstore.png"; sourceTree = "<group>"; };
 		F470BC632486DCB5008E4D09 /* myhealthjournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myhealthjournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F470BC662486DCB5008E4D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F470BC682486DCB5008E4D09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		F470BC652486DCB5008E4D09 /* myhealthjournal */ = {
 			isa = PBXGroup;
 			children = (
+				A6301D6624882AD300203C94 /* blue_background.png */,
+				A6301D6824882B3300203C94 /* ic_launcher-playstore.png */,
 				F470BC662486DCB5008E4D09 /* AppDelegate.swift */,
 				F470BC682486DCB5008E4D09 /* SceneDelegate.swift */,
 				F470BC6A2486DCB5008E4D09 /* ViewController.swift */,
@@ -126,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F470BC732486DCB9008E4D09 /* LaunchScreen.storyboard in Resources */,
+				A6301D6924882B3300203C94 /* ic_launcher-playstore.png in Resources */,
+				A6301D6724882AD300203C94 /* blue_background.png in Resources */,
 				F470BC702486DCB9008E4D09 /* Assets.xcassets in Resources */,
 				F470BC6E2486DCB5008E4D09 /* Main.storyboard in Resources */,
 			);
